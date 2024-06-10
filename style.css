@@ -643,12 +643,12 @@ footer
 		line-height: 1.6;
 	}
 	.title-block h2, p {
-		text-align: left;
+		text-align: right;
 		padding: 0px 20px;
 	}
 
 	#call-to-action h2, p {
-		text-align: left!important;
+		text-align: right!important;
 		padding: 0 20px;
 	}
 
