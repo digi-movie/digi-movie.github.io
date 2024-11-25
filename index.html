@@ -1,127 +1,149 @@
-<!doctype html>
-<html lang="fa-IR">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/ico" />
-    <meta name="robots" content="index">
-    <title>اپلیکیشن اندرویدی دیجی موویز</title>
-    <meta name="description" content="دانلود و تماشای آنلاین هزاران فیلم، سریال و انیمیشن با زیرنویس فارسی چسبیده در دسته‌بندی‌های مختلف"/>
-    <meta property="og:locale" content="fa" />
-    <meta property="og:title" content="اپلیکیشن اندرویدی دیجی موویز" />
-    <meta property="og:description" content="دانلود و تماشای آنلاین هزاران فیلم، سریال و انیمیشن با زیرنویس فارسی چسبیده در دسته‌بندی‌های مختلف" />
-    <meta property="og:url" content="https://digi-movie.github.io" />
-    <meta property="og:site_name" content="اپلیکیشن اندرویدی دیجی موویز" />
-    <meta property="og:image" content="https://digi-movie.github.io/images/digimoviez-logo.png" />
-    <meta property="og:image:secure_url" content="https://digi-movie.github.io/images/digimoviez-logo.png" />
-    <meta name="msvalidate.01" content="44F1D08C57467586DD2082C392CD70BC" />
-    <meta name="google-site-verification" content="7J9TJlOWwS3ouUX4yIAMUIljpcws5BzUmcs-gxd1-dk" />
-    <meta property="og:image:alt" content="اپلیکیشن اندرویدی دیجی موویز" />
-    <meta property="og:type" content="website" />
-   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>اپلیکیشن دیجی موویز</title>
+        <meta name="description" content="دانلود و تماشای آنلاین هزاران فیلم، سریال و انیمیشن با زیرنویس فارسی چسبیده در دسته‌بندی‌های مختلف"/>
+        <meta name="robots" content="index">
+        <meta property="og:locale" content="fa" />
+        <meta property="og:title" content="اپلیکیشن اندرویدی دیجی موویز" />
+        <meta property="og:description" content="دانلود و تماشای آنلاین هزاران فیلم، سریال و انیمیشن با زیرنویس فارسی چسبیده در دسته‌بندی‌های مختلف" />
+        <meta property="og:url" content="https://digi-movie.github.io" />
+        <meta property="og:site_name" content="اپلیکیشن دیجی موویز" />
+        <meta property="og:image" content="https://digi-movie.github.io/images/digimoviez-logo.png" />
+        <meta property="og:image:secure_url" content="https://digi-movie.github.io/images/digimoviez-logo.png" />
+        <meta property="og:image:alt" content="اپلیکیشن دیجی موویز" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="styles.css">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
 
-    <link rel="stylesheet" href="css/bootstrap-rtl.css" type="text/css" />
+    <body>
+        <header>
+            <div class="container">
+                <img src="images/appbar-logo.svg" alt="Logo" class="logo">
 
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+                <h1>بدون وقفه و مرز تماشا کنید!</h1>
+                <p>
+                    با استفاده از اپلیکیشن‌های ما، دیجی‌موویز را با همه‌ی فیلم‌ها و سریال‌هایش در دسترس داشته باشید.
+                </p>
+                <div class="actions">
+                    <a href="https://digimoviez.com/dashboard/" target="_blank" class="btn secondary">ثبت‌ نام</a>
+                    <a href="https://digimoviez.com/dashboard/subscription/" target="_blank" class="btn primary">خرید اشتراک</a>
+                </div>
+            </div>
+        </header>
 
-    <!-- Ionic icons -->
-    <link href="css/ionicons.min.css" rel="stylesheet">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
-
-  </head>
-
-  <body>
-
-  <!-- N A V B A R -->
-  <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="منو">
-      <span class="icon ion-md-menu"></span>
-    </button>
-    <img src="images/logo-dark.png" class="img-fluid nav-logo-mobile" alt="اپلیکیشن اندرویدی دیجی موویز">
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <div class="container">
-      	<img src="images/logo-dark.png" class="img-fluid nav-logo-desktop" alt="اپلیکیشن اندرویدی دیجی موویز">
-        <ul class="navbar-nav ml-auto nav-left" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-          <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="https://digimoviez.com/movies/">فیلم <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-          <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="https://digimoviez.com/series/">سریال <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-          <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="https://digimoviez.com/genre/animation/">انیمیشن <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-          <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="https://digimoviez.com/cast/">هنرمندان <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- E N D  N A V B A R -->
-  
-  <!-- H E R O -->
-  <section id="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-5 col-sm-5 col-xs-5">
-          <img src="images/mobile.png" class="img-fluid" alt="اپلیکیشن اندرویدی دیجی موویز">
+        <div class="separator-container">
+            <img src="images/down-circular-button1.png" alt="Separator" class="separator">
         </div>
-        <div class="col-lg-8 col-md-7 content-box hero-content">
-          <hr>
-           
-          
-          <h1>برنامه اندرویدی <b>دیجی موویز <i class="icon ion-logo-android"></i></b></h1>
-          <p>دانلود و تماشای آنلاین هزاران فیلم، سریال و انیمیشن با زیرنویس فارسی چسبنده در دسته‌بندی‌های مختلف</p>
-          <hr>
-          <a href="https://digimoviez.com/app/digimoviez_android_app_v1_1_0.apk" download class="btn btn-dark btn-lg">دانلود اپلیکیشن <i class="icon ion-md-cloud-download"></i> 
-            </a>
-            
-            
-            
-        </div>
-      </div>
-      
-    </div>
-  </section>
-  <!-- E N D  H E R O -->
+
+        <section id="features">
 
 
+            <div class="feature">
+                <img src="images/03.png" alt="Mobile Feature">
+                <div class="feature-text">
+                    <h2>تو جیب بزار!</h2>
+                    <p>بیش از ۳۰ هزار قسمت سریال</p>
+                    <a download href="https://github.com/digi-movie/digi-movie.github.io/releases/download/1.1.0/digimoviez_android_app_v1_1_0.apk">
+                        <button class="btn btn-labeled btn-danger">
+                            <span class="btn-text"> دریافت اپلیکیشن اندروید
+                            </span>
+                            <span class="btn-label">
+                                <i class="fab fa-android"></i>
+                            </span>
+                        </button>
+                    </a>
+                </div>
 
 
- 
+            </div>
+
+            <div class="feature">
+
+                <img src="images/06.png" alt="TV Feature">
+                <div class="feature-text">
+                    <h2>روی دیوار خونه ببین!</h2>
+                    <p>پخش زنده از رادیو و تلویزیون سراسری کشور</p>
+                    <a download href="https://raw.githubusercontent.com/sammellon/sammellontv/refs/tags/v1.0.1/digiMovie-v1.0.1.apk">
+                        <button class="btn btn-labeled btn-danger">
+                            <span class="btn-text"> دریافت اپلیکیشن تلویزیون
+                            </span>
+                            <span class="btn-label">
+                                <i class="fas fa-tv" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </a>	
+                </div>
+
+            </div>
 
 
+            <div class="feature">
+                <img src="images/02.png" alt="Laptop Feature">
+                <div class="feature-text">
+                    <h2>تو کیفت داشته باش!</h2>
+                    <p>پشتیبانی از بیش از ۵۰ هزار فیلم و سریال</p>
+                    <button class="btn btn-labeled btn-danger">
+                        <span class="btn-text"> دریافت نرم‌افزار مک - به زودی
+                        </span>
+                        <span class="btn-label">
+                            <i class="fas fa-apple-alt" aria-hidden="true">
+                            </i>
+                        </span>
 
-  <!--  F O O T E R  -->
-  <!-- <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <a href="https://www.instagram.com/digimoviez"><i class="icon ion-logo-instagram"></i></a>
-          </div>
-          <div class="col-md-6 col-xs-12">
-            <small>&copy; 
-            تمامی حقوق مادی و معنوی برای 
-              <a href="https://www.instagram.com/digimoviez" target="blank" class="external-links">دیجی موویز</a> محفوظ می‌باشد.</small> 
-          </div>
-      </div>
-    </div>
-  </footer> -->
-  <!--  E N D  F O O T E R  -->
-    
+                    </button>
+                </div>
+            </div>
 
-    <!-- External JavaScripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+            <div class="feature">
+                <img src="images/01.png" alt="Tablet Feature">
+                <div class="feature-text">
+                    <h2>تو ویندوزت فیلم ببین!</h2>
+                    <p>بیش از ۵۰۰۰ هزار قسمت سریال</p>
+                    <button class="btn btn-labeled btn-danger">
+                        <span class="btn-text"> دریافت اپلیکیشن ویندوز - به زودی
+                        </span>
+                        <span class="btn-label">
+                            <i class="fab fa-windows"></i>
+                        </span>
+
+                    </button>
+                </div>
+
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="social-icons">
+                    <a href="https://twitter.com/" target="_blank">
+                        <span>
+                            <i class="fa fa-brands fa-twitter"></i>
+                        </span>
+                    </a>
+                    <a href="https://instagram.com/" target="_blank">
+                        <span>
+                            <i class=" fa fa-brands fa-instagram">
+                            </i>
+                        </span>
+                    </a>
+                    <a href="https://telegram.org/" target="_blank">
+                        <span>
+                            <i class="fa fa-brands fa-telegram"></i>
+                        </span>
+                    </a>
+                </div>
+                <img src="images/appbar-logo.svg" alt="Digimovie Logo" class="logo">
+                <p>تمام حقوق این وب‌سایت متعلق به دیجی مووی می‌باشد.</p>
+
+            </div>
+        </footer>
+    </body>
+
 </html>
